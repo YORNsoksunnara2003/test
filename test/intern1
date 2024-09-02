@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .flex {
+            background-color: rgba(0, 100, 0, 0.906);
+            width: 500px;
+
+        }
+        .flex-grow-0{
+            background-color: rgba(144, 238, 144, 0.563);
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 35px;
+            
+            padding-left: 5px;
+            
+        }
+        
+        .flex-grow0{
+            background-color: rgba(244, 250, 215, 0.654);
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            height: 35px;
+            padding-left: 5px;
+        }
+        .flex-grow1{
+            background-color: rgba(244, 250, 215, 0.654);
+            margin-left: 20px;
+            margin-right: 20px; 
+            
+            height: 220px;
+            padding-left: 5px;
+        }
+        
+        
+        .flex-grow-01{
+            background-color: rgba(144, 238, 144, 0.563);
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 320px;
+            
+            padding-left: 5px;     
+
+        }
+        .flex-grow-02{}
+        
+
+        
+    
+
+    </style>
+</head>
+<body>
+    
+    <div class="flex flex-col"><br>
+        <div class="flex-grow-0">Page Header</div><br>
+        <div class="flex-grow-0">Nav</div><br>
+        <div class="flex">
+
+            <div class="flex-grow-01">Article
+                <div class="flex-grow0">Article Header</div><br>
+                <div class="flex-grow1">Main</div><br> 
+            </div><br>
+            <div class="flex-grow-02">Aside</div>         
+        </div> 
+        <div class="flex-grow-0">Section</div><br>
+        <div class="flex-grow-0">Footer</div><br>
+
+        
+    </div>     
+</body>
+
+</html>

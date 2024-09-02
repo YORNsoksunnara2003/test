@@ -1,0 +1,60 @@
+<!DOCTYPE  HTML>
+<html leng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .container{
+            background-color: aliceblue;
+            height: 650px;
+            width: 500px;
+
+        }
+
+       .flex{
+        display:flex;
+       }
+       .flex-row{
+        flex-direction: row;
+        
+       }
+       .flex-col{
+        flex-direction: column;
+       }
+       .flex-row-0{
+        flex-grow: 0;
+       }
+       .p{
+        margin-left: 5px;
+       }
+
+       .child{
+        background-color: blue;
+        height: 300px;
+        width: 450px;
+        margin-left: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <div class="flex-grow-0">my</div>
+            <div class="flex-grow-0 flex flex-col">
+                <div class="flex-grow">Friend Name</div>
+                <div class="flex-grow">Today at 19:33</div>
+            </div>
+        </div>
+        <p>I want this mockup so bad!</p>
+        <p>Found it add</p>
+        <p>See translation</p>
+        <div class="child"></div>
+        
+        
+    </div>
+    
+
+</body>
+</html>
